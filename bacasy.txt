@@ -7,3 +7,4 @@ Cara upload repository ke github via vscode terminal
 
 kalo nambahin kerjaan yg udah selesai tambahin line
 - git add . 
+- git commit -m 'progresskamu' ex: git commit -m 'revisi tugas 1'
