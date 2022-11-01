@@ -1,0 +1,8 @@
+Cara upload repository ke github via vscode terminal
+
+- klik ctrl + ` untuk shortcut membuka terminal 
+- Di terminal, Klik git init
+
+
+kalo nambahin kerjaan yg udah selesai tambahin line
+- git add
