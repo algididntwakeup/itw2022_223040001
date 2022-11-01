@@ -7,4 +7,9 @@ Cara upload repository ke github via vscode terminal
 
 kalo nambahin kerjaan yg udah selesai tambahin line
 - git add . 
-- git commit -m 'progresskamu' ex: git commit -m 'revisi tugas 1'
+- git commit -m 'progresskamu' (ex: git commit -m 'revisi tugas 1')
+
+- untuk ganti nama branch melalui git atau terminal, gunakan git branch -m namabranch
+- lalu git remote add origin https://github.com/usernamelu/linkrepositorylu.git
+untuk upload ketik git push -u origin namabranch (untuk default biasanya git push -u origin master/ main)
+
