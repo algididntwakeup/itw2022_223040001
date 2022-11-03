@@ -1,0 +1,37 @@
+body {
+  background-color: aqua;
+  font-family: Georgia;
+}
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 60px;
+  color: darkblue;
+}
+h4 {
+  text-align: right;
+  text-decoration: italic;
+}
+h3 a {
+  color: azure;
+}
+h3 a:hover {
+  color: crimson;
+}
+
+p {
+  text-align: center;
+}
+#orenjikun {
+  color: coral;
+}
+.keju {
+  text-align: justify;
+}
+.keju a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.keju a:hover {
+  background-color: darkblue;
+  color: azure;
+}

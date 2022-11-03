@@ -1,0 +1,43 @@
+body {
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Georgia;
+}
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  text-decoration: italic;
+}
+h3 {
+  text-align: center;
+}
+h3 a {
+  color: crimson;
+}
+h3 a:hover {
+  color: azure;
+}
+
+p {
+  text-align: center;
+}
+#orenjikun {
+  color: coral;
+}
+.keju {
+  text-align: justify;
+}
+.keju a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.keju a:hover {
+  background-color: darkblue;
+  color: azure;
+}
