@@ -13,6 +13,7 @@ h4 {
 }
 h3 a {
   color: azure;
+  font-variant: small-caps;
 }
 h3 a:hover {
   color: crimson;
