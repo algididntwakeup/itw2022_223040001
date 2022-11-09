@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layouting</title>
+    <style>
+      h1 {
+        background-color: lightblue;
+        width: 200px;
+        height: 200px;
+      }
+      a {
+        background-color: salmon;
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+      }
+      .adudu {
+        background-color: lightblue;
+        width: 100px;
+        height: 100px;
+        overflow-y: hidden;
+      }
+      .adudu2 {
+        width: 100px;
+        height: 100px;
+        background-color: salmon;
+        /* margin: 20px auto 10px; */
+        margin-left: -85px;
+        transition: 2s;
+        border-top: 5px solid royalblue;
+        border-right: 5px dashed seagreen;
+        border-bottom: 5px dotted gold;
+        border-left: 5px double plum;
+      }
+      .adudu2:hover {
+        margin-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Halo ITW</h1>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+    <div class="adudu">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sapiente id odit molestias ab cupiditate doloribus autem maxime voluptates quo architecto fugiat tenetur repudiandae repellat, eum neque nesciunt expedita soluta unde,
+      reiciendis a? Omnis dolor in magni modi velit ab magnam, itaque repudiandae eos odio?
+    </div>
+    <div class="adudu2"></div>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, obcaecati exercitationem voluptatum eos dolorem ipsam adipisci cum tenetur magnam dolore. Odit quidem, consequuntur ipsum, eaque libero maxime unde ipsam sed
+      temporibus enim nemo rem quia numquam ex velit accusantium perferendis, quod voluptatibus amet! Beatae, earum.
+    </p>
+  </body>
+</html>
