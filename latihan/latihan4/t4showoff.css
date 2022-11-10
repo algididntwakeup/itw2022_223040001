@@ -167,24 +167,37 @@ body {
 .twiter {
   width: 200px;
   height: 200px;
-  background-image: url(img/instegrem.png);
-  background-repeat: no-repeat;
+  background-image: url(img/ribboncons.png);
+  /* background-repeat: no-repeat; */
   display: inline-block;
   text-indent: -9999px;
   position: absolute;
-  top: -23px;
-  right: -27px;
+  top: -45px;
+  right: -33px;
+}
+.twiter2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/ribboncons.png);
+  /* background-repeat: no-repeat; */
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  bottom: -70px;
+  left: -33px;
 }
 .header {
   padding: 20px;
   padding-bottom: 10px;
 }
 .header .judul {
+  display: flex;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 40px;
   font-weight: bold;
   filter: blur(0px);
   transition: all 2s;
+  margin-left: 370px;
 }
 .header .judul:hover {
   transform: rotateX(20deg) translatey(-50px);
@@ -203,7 +216,7 @@ body {
 
 .header a {
   text-decoration: none;
-  color: rgb(240, 73, 90);
+  color: rgb(0, 0, 0);
   padding: 3px;
 }
 
@@ -213,31 +226,36 @@ body {
 }
 
 .hero {
-  height: 365px;
-  background-image: url(img/gibli.jpg);
+  height: 300px;
+  width: 300px;
+  background-image: url(img/underc.png);
   background-size: cover;
-  background-position: 0 -140px;
-  border-top: 4px solid salmon;
-  border-bottom: 4px solid salmon;
+  background-repeat: no-repeat;
+  background-position: 0;
+  margin-left: 330px;
+  margin-top: 10px;
 }
 .main {
-  width: 600px;
-  padding: 20px;
+  width: 900px;
+  padding: 33px;
   box-sizing: border-box;
-  float: left;
+  margin-left: 30px;
 }
 
 .main h2 {
-  font-family: 'Unna', serif;
   font-size: 22px;
   font-weight: bold;
-  color: rgb(103, 172, 153);
-  margin-left: 13px;
+  color: rgb(164, 50, 38);
+  text-align: center;
+  padding-top: 20px;
 }
 .main h1 {
-  font-size: 32px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 36px;
   font-weight: bold;
-  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(226, 56, 37);
 }
 .main .penulis {
   font-size: 12px;
@@ -263,40 +281,16 @@ body {
 #italic {
   font-style: italic;
 }
-
-/* sidebar */
-.sidebar {
+.animeg {
+  height: 300px;
   width: 300px;
+  background-image: url(img/animek.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0;
+  margin-left: -330px;
+  margin-top: 10px;
   float: right;
-  padding: 20px;
-}
-
-.sidebar h3 {
-  font-weight: bold;
-  color: #666;
-}
-
-.sidebar img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  float: left;
-  padding-right: 10px;
-}
-
-.sidebar p {
-  /* ukuran font/lineheight, jenis font */
-  font: 14px/18px arial;
-}
-
-.sidebar ul li a {
-  font-size: 16px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #333;
-}
-.sidebar ul li a:hover {
-  color: rgb(240, 73, 90);
 }
 .footer {
   background-color: #333;
