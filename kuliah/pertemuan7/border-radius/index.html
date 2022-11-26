@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border-radius</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(255, 218, 116);
+        border-radius: 150px;
+        text-align: center;
+        line-height: 300px;
+      }
+      .keju2 {
+        width: 400px;
+        height: 400px;
+        background-color: rgb(255, 218, 116);
+        border-radius: 50%;
+        text-align: center;
+        line-height: 400px;
+      }
+      .keju3 {
+        width: 400px;
+        height: 400px;
+        background-color: rgb(255, 218, 116);
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        text-align: center;
+        line-height: 400px;
+        margin-left: 450px;
+        margin-top: -550px;
+      }
+      .keju4 {
+        width: 400px;
+        height: 400px;
+        background-color: rgb(255, 218, 116);
+        border-radius: 0 50% 0 50%;
+        text-align: center;
+        line-height: 400px;
+        margin-top: 150px;
+        margin-left: 400px;
+      }
+      .kejubetul {
+        width: 400px;
+        height: 400px;
+        background-image: url(keju.jpg);
+        border-radius: 35%;
+        text-align: center;
+        line-height: 400px;
+        margin-left: 50px;
+        margin-top: -110px;
+      }
+      .kejubetulan {
+        width: 400px;
+        height: 400px;
+        background-color: rgb(255, 218, 116);
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        text-align: center;
+        line-height: 400px;
+        margin-left: 475px;
+        margin-top: -200px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Keju</div>
+    <div class="keju2">Keju</div>
+    <div class="keju3">Keju</div>
+    <div class="keju4">Keju</div>
+    <div class="kejubetul"></div>
+    <div class="kejubetulan"><img src="keju.jpg" alt="" /></div>
+  </body>
+</html>
