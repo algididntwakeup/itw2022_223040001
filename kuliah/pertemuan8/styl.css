@@ -1,0 +1,43 @@
+html {
+  height: 100px;
+  background-color: rgb(63, 80, 85);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.flexbox-container {
+  /* max-width: 700px; */
+  height: 600px;
+  /* display flex berarti bakalan ngikutin dari si browser ato nilai terbesar dari isi dalam containernya */
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  background-color: rgb(228, 167, 102);
+  /* nilai dari sebuah justify ada start, end,center buat tengah tangah space between biar terbagi bagi
+ ,space-around buat menyamakan si jarak antara kiri dan kanan si htmlnyo sama space-evenly buat samain semuanya jarakny biar jos*/
+  justify-content: space-between;
+  /* stretch buat memenuhi secara vertikal, start, end, center buat horizontal*/
+  /* align-items: center; */
+}
+
+.flexbox-item {
+  width: 200px;
+  background-color: rgb(182, 88, 88);
+  border: 3px solid rgb(106, 41, 41);
+  /* border urutannya tebal solid warna */
+  margin: 10px;
+}
+
+.item-1 {
+  min-height: 100px;
+  align-self: start;
+}
+.item-2 {
+  min-height: 200px;
+  align-self: center;
+}
+.item-3 {
+  min-height: 300px;
+  align-self: end;
+}

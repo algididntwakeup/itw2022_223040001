@@ -175,7 +175,7 @@ body {
   position: absolute;
   top: -23px;
   right: -27px;
-  z-index: 9999;
+  z-index: 999;
 }
 .header {
   padding: 20px;
